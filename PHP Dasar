@@ -46,7 +46,7 @@ Platform online untuk menyimpan repo Git, mempermudah kolaborasi tim, issue trac
 
 Alternatif lain: GitLab, Bitbucket.
 
-Istilah Git penting:
+✅Istilah Git penting:
 
 Repository (repo): folder project yang dikelola Git.
 
@@ -82,13 +82,59 @@ Bisa ditulis di dalam HTML:
 
 Atau full script .php.
 
-Variabel
+✅ 1. Scalar Types (tipe sederhana)
+
+String → teks
+
+$nama = "Arya Buaya";
+
+
+Integer → bilangan bulat
+
+$umur = 20;
+
+
+Float / Double → bilangan desimal
+
+$tinggi = 170.5;
+
+
+Boolean → nilai benar/salah (true / false)
+
+$lulus = true;
+
+✅ 2. Compound Types (tipe gabungan)
+
+Array → kumpulan data dalam satu variabel
+
+$buah = ["Apel", "Mangga", "Jeruk"];
+
+
+Object → instance dari class (OOP)
+
+class Siswa {
+    public $nama;
+}
+$obj = new Siswa();
+$obj->nama = "Arya";
+
+✅ 3. Special Types
+
+NULL → variabel tanpa nilai
+
+$data = null;
+
+Resource → tipe khusus untuk menyimpan reference ke resource eksternal (contoh: koneksi database, file handler).
+
+$file = fopen("data.txt", "r");
+
+✅Variabel
 
 Diawali dengan $ → contoh: $nama.
 
 Tidak boleh diawali angka, tapi boleh diakhiri angka → $user1.
 
-Operator di PHP
+✅Operator di PHP
 
 Aritmatika: + - * / % ** (catatan: ** untuk pangkat).
 
@@ -102,7 +148,7 @@ Identitas (cek nilai dan tipe): === !==.
 
 Logika: && (AND), || (OR), ! (NOT).
 
-Pengulangan
+✅Pengulangan
 
 for
 
