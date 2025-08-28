@@ -1,0 +1,185 @@
+✅ Laravel
+
+Laravel adalah framework PHP yang membantu developer membangun aplikasi web dengan lebih cepat, rapi, dan terstruktur.
+
+Syntax Laravel memang lebih sederhana dibandingkan native PHP, tetapi dasar PHP tetap harus dikuasai agar mudah memahami Laravel.
+
+Laravel menyediakan banyak fitur bawaan seperti routing, ORM (Eloquent), templating (Blade), authentication, middleware, dll.
+
+✅ Client Side vs Server Side Scripting
+
+Client Side Scripting
+
+Diproses di sisi browser / komputer client.
+
+Contoh: HTML, CSS, JavaScript.
+
+Biasanya digunakan untuk tampilan (UI), validasi sederhana, animasi, interaksi langsung di halaman.
+⚠️ Catatan: HTML bukan "scripting language", tapi markup language. Namun sering digabung dalam pembahasan client-side.
+
+Server Side Scripting
+
+Diproses di sisi web server sebelum dikirim ke browser.
+
+Contoh: PHP, Python (Django/Flask), Ruby, Node.js (server-side JS).
+
+Alurnya:
+Web Browser → Web Server → Script (PHP) → Database → Script (PHP) → Web Server → Web Browser
+
+Web Server
+
+Perangkat lunak yang melayani permintaan dari browser.
+
+Contoh: Apache, Nginx, IIS, Tomcat, Lighttpd.
+
+✅ Git & GitHub
+
+Git
+
+Version Control System (VCS) untuk mencatat perubahan kode.
+
+Bisa bekerja offline di komputer lokal.
+
+GitHub
+
+Platform online untuk menyimpan repo Git, mempermudah kolaborasi tim, issue tracking, pull request, dll.
+
+Alternatif lain: GitLab, Bitbucket.
+
+Istilah Git penting:
+
+Repository (repo): folder project yang dikelola Git.
+
+Commit: snapshot perubahan.
+
+Hash: kode unik identifikasi commit.
+
+Branch: cabang pengembangan kode.
+
+Merge: menggabungkan branch.
+
+Checkout: berpindah ke branch/commit tertentu.
+
+Remote: server tempat repo disimpan (GitHub, GitLab).
+
+Clone: menyalin repo remote ke lokal.
+
+Push: mengirim perubahan lokal ke remote.
+
+Pull: mengambil update dari remote ke lokal.
+
+✅ PHP Dasar
+Penulisan PHP
+
+Bisa ditulis di dalam HTML:
+
+<html>
+  <body>
+    <?php echo "Hello World"; ?>
+  </body>
+</html>
+
+
+Atau full script .php.
+
+Variabel
+
+Diawali dengan $ → contoh: $nama.
+
+Tidak boleh diawali angka, tapi boleh diakhiri angka → $user1.
+
+Operator di PHP
+
+Aritmatika: + - * / % ** (catatan: ** untuk pangkat).
+
+Concatenation: . → $nama = "Arya" . " Buaya";.
+
+Assignment: = += -= *= /= %= .=.
+
+Perbandingan: < > <= >= == !=.
+
+Identitas (cek nilai dan tipe): === !==.
+
+Logika: && (AND), || (OR), ! (NOT).
+
+Pengulangan
+
+for
+
+for ($i = 1; $i <= 5; $i++) {
+    echo $i;
+}
+
+
+Ada inisialisasi, kondisi terminasi, dan increment/decrement.
+
+while
+
+$i = 1;
+while ($i <= 5) {
+    echo $i;
+    $i++;
+}
+
+
+Mengecek kondisi dulu, baru jalankan isi loop.
+
+do while
+
+$i = 1;
+do {
+    echo $i;
+    $i++;
+} while ($i <= 5);
+
+
+Isi loop pasti dijalankan sekali, baru cek kondisi.
+
+foreach (khusus array)
+
+$buah = ["apel", "mangga", "jeruk"];
+foreach ($buah as $item) {
+    echo $item;
+}
+
+Pengkondisian
+
+if else
+
+if ($nilai >= 75) {
+    echo "Lulus";
+} else {
+    echo "Tidak Lulus";
+}
+
+
+if else if else
+
+if ($nilai >= 90) {
+    echo "A";
+} elseif ($nilai >= 75) {
+    echo "B";
+} else {
+    echo "C";
+}
+
+
+Ternary
+
+$status = ($nilai >= 75) ? "Lulus" : "Tidak Lulus";
+
+
+Switch
+
+$hari = "Senin";
+switch ($hari) {
+    case "Senin":
+        echo "Hari kerja";
+        break;
+    case "Sabtu":
+    case "Minggu":
+        echo "Hari libur";
+        break;
+    default:
+        echo "Tidak diketahui";
+}
