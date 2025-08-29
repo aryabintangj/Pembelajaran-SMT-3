@@ -1,0 +1,17 @@
+✅WORKSHOP SISTEM INFORMASI BERBASIS WEB 
+MINGGU 1 PERTEMUAN 1 
+Materi : Instalasi Composer dan GitHub 
+
+Dalam pengembangan perangkat lunak modern, penggunaan Composer dan GitHub 
+menjadi hal yang sangat penting. Composer adalah dependency manager untuk PHP 
+yang memudahkan pengelolaan library dan framework. Dengan Composer, developer 
+dapat dengan cepat menginstal paket pihak ketiga, mengatur versi, dan memastikan 
+project tetap terstruktur. 
+Sementara itu, Git dan GitHub digunakan untuk version control serta kolaborasi 
+dalam pengembangan aplikasi. Git memudahkan pengembang melacak perubahan 
+kode, membuat branch, dan menggabungkan update. GitHub berperan sebagai remote 
+repository yang menyimpan project secara online sehingga dapat diakses oleh tim 
+atau publik. 
+Oleh karena itu, memahami cara instalasi Composer dan penggunaan Git untuk 
+melakukan push ke GitHub sangat penting bagi pengembang web maupun aplikasi 
+berbasis PHP.
