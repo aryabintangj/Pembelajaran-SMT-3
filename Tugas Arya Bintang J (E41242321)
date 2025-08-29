@@ -1,5 +1,5 @@
 ✅WORKSHOP SISTEM INFORMASI BERBASIS WEB 
-MINGGU 1 PERTEMUAN 1 
+MINGGU 1 ACARA 1 
 Materi : Instalasi Composer dan GitHub 
 
 Dalam pengembangan perangkat lunak modern, penggunaan Composer dan GitHub 
@@ -15,3 +15,78 @@ atau publik.
 Oleh karena itu, memahami cara instalasi Composer dan penggunaan Git untuk 
 melakukan push ke GitHub sangat penting bagi pengembang web maupun aplikasi 
 berbasis PHP.
+
+✅WORKSHOP SISTEM INFORMASI BERBASIS WEB 
+MINGGU 1 ACARA 2
+Materi : Variabel, Type data dan Operator pada PHP
+
+1. Kenapa string " " bisa tetap dijumlahkan seperti angka?
+Karena dalam bahasa seperti PHP, kalau sebuah string isinya angka murni (contoh "10", "20"), maka saat dipakai di operasi matematika, PHP otomatis mengubahnya menjadi tipe numerik (integer/float).
+Proses ini disebut type juggling (konversi otomatis tipe data).
+
+Contoh:
+$a = "10"; // sebenarnya string
+$b = "20"; // string juga
+echo $a + $b; // hasilnya 30, karena PHP ubah otomatis ke integer
+Tapi kalau stringnya bukan angka:
+$x = "hello";
+$y = "5";
+echo $x + $y; // hasilnya 5, karena "hello" dianggap 0
+
+2. Bedanya operator / dengan % (modulo)
+a.	/ (pembagian biasa) → menghasilkan hasil bagi.
+b.	% (modulo) → menghasilkan sisa pembagian.
+ Contoh:
+$x = 10;
+$y = 3;
+echo $x / $y; // hasil: 3.333... (pembagian biasa)
+echo "<br>";
+echo $x % $y; // hasil: 1 (sisa dari 10 dibagi 3)
+
+3. Tambahkan kode program operator agar bisa menghasilkan nilai gabungan string tugas1 dan tugas2 menjadi 9080? (operator)
+Jawaban :
+$gabungan = $tugas1 . $tugas2;
+echo "Gabungan String: " . $gabungan; 
+
+Kode Operator yang sudah di perbaiki
+NamaFile : operator1.php
+
+<?php
+$tugas1 = 90;
+$tugas2 = 80;
+
+$jumlah = $tugas1 + $tugas2;
+$rerata = $jumlah / 2;
+
+// tampilkan nilai asli
+echo "Nilai Tugas I  : " . $tugas1 . "<br>";
+echo "Nilai Tugas II : " . $tugas2 . "<br>";
+echo "Jumlah Tugas   : " . $jumlah . "<br>";
+echo "Rerata Tugas   : " . $rerata . "<br>";
+
+// gabungan string
+$gabungan = $tugas1 . $tugas2;
+echo "Gabungan String: " . $gabungan; 
+?>
+
+NamaFile : operator2.php
+ <?php
+ $x=10;
+ $y=6;
+ echo ($x + $y);
+ echo ($x- $y);
+ echo ($x * $y);
+ echo ($x / $y);
+ echo ($x % $y);
+ $a = "Hello";
+ $b = $a . " world!";
+ echo $b;
+ echo $a. "--" . $b. " ini string operator";
+ ?>
+
+Kesimpulan
+1.	Variabel pada PHP adalah tempat penyimpanan data yang nilainya dapat berubah-ubah selama program berjalan, ditandai dengan simbol $.
+2.	Tipe data menjelaskan bentuk data yang disimpan, misalnya integer (bilangan bulat), float (desimal), string (teks), dan boolean (true/false).
+3.	Operator digunakan untuk memproses variabel dan nilai, seperti operator aritmatika (+, -, *, /, %), operator string (.), operator perbandingan, dan operator logika.
+4.	Dengan memahami variabel, tipe data, dan operator, seorang programmer dapat menulis program PHP dengan lebih terstruktur, efisien, dan mudah dipahami.
+
