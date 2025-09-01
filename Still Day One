@@ -1,0 +1,29 @@
+1. JavaScript (JS)
+
+Bahasa pemrograman yang berjalan di browser (client-side).
+
+Fungsinya untuk membuat website jadi interaktif (misalnya tombol bisa diklik, form bisa divalidasi, animasi jalan).
+
+Sekarang juga bisa dipakai di server pakai Node.js.
+
+Contoh: kalau kamu klik tombol lalu muncul pop-up, itu kerjaan JS.
+
+2. PHP
+
+Bahasa pemrograman yang berjalan di server (server-side).
+
+Biasanya dipakai untuk membuat website dinamis yang terhubung dengan database (MySQL, dll).
+
+Banyak dipakai di WordPress, aplikasi kasir, website login, dll.
+
+Contoh: kalau kamu isi form login lalu data dicek di database, itu kerjaan PHP.
+
+3. Golang (Go)
+
+Bahasa pemrograman modern buatan Google.
+
+Cepat, ringan, dan cocok untuk membuat aplikasi berskala besar (server, API, sistem cloud, dll).
+
+Sering dipakai di perusahaan besar untuk backend karena performanya lebih tinggi dibanding PHP.
+
+Contoh: bikin server API untuk aplikasi mobile, bisa pakai Golang.
